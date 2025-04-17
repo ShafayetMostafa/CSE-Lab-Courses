@@ -1,0 +1,350 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1320px;
+  margin: auto;
+}
+.con {
+  width: 1920px;
+  margin: auto;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* ////////////////////////////////////
+            Menu Start
+//////////////////////////////////// */
+
+#menu .main_menu .menu_1 {
+  height: 42px;
+  width: 1218px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 52px;
+  font-family: "Cera PRO Medium";
+  text-transform: uppercase;
+}
+
+#menu .main_menu .menu_1 a {
+  color: #686c75;
+  font-weight: 500px;
+  font-size: 17px;
+  transition: 0.3s;
+}
+#menu .main_menu .menu_1 a:hover {
+  color: #ffdb80;
+}
+.ssss {
+  padding: 0 250px;
+  font-family: "Cera PRO Medium";
+  font-size: 30px;
+}
+
+.sidebar {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 93%);
+  background-color: #ffdb80;
+  height: 557px;
+  width: 77px;
+  transform: translateY(-10%);
+}
+
+/* ////////////////////////////////////
+            Menu End
+//////////////////////////////////// */
+
+/* ////////////////////////////////////
+           Hero Start
+//////////////////////////////////// */
+
+#hero h1 {
+  font-family: "Axiforma W05 Bold";
+  font-size: 59px;
+  width: 40%;
+  transform: translateY(-40%);
+}
+
+#hero .element {
+  transform: translateY(-703%);
+}
+
+#hero .hero_img_1 {
+  position: relative;
+  transform: translate(53%, -197%);
+}
+
+#hero .hero_img_2 {
+  position: relative;
+  transform: translate(50%, -94%);
+}
+
+#hero .hero_img_3 {
+  position: relative;
+  transform: translate(73%, -526%);
+}
+#hero .hero_img_4 {
+  position: relative;
+  transform: translate(83%, -717%);
+}
+#hero .hero_img_5 {
+  position: relative;
+  transform: translate(95%, -1064%);
+}
+#hero .hero_img_5 {
+  position: relative;
+  transform: translate(95%, -1064%);
+}
+#hero .hero_img_6 {
+  position: relative;
+  transform: translate(91%, -886%);
+}
+#hero .hero_img_7 {
+  position: relative;
+  transform: translate(23%, -10305%);
+}
+#hero .hero_img_8 {
+  position: relative;
+  transform: translate(-1%, -6920%);
+}
+
+.s_menu {
+  height: 102px;
+  width: 850px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  transform: translate(-1%, -2718%);
+  border-radius: 5px;
+  background: #98989834;
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(9px);
+  padding: 0 20px;
+}
+
+.s_menu a {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  font-family: "Cera PRO Medium";
+  font-size: 19px;
+  font-weight: 500;
+  color: #989898;
+  transition: 0.3s;
+}
+.s_menu a:hover {
+  color: #ffdb80;
+}
+
+.btn_1 {
+  width: 176px;
+  height: 56px;
+  font-size: 17px;
+  font-family: "Poppins", sans-serif;
+  background-color: #fd5b2f;
+  color: #ffffff;
+  border-radius: 5px;
+  border: none;
+  transition: 0.3s;
+}
+.btn_1:hover {
+  background-color: #ffdb80;
+  color: #fd5b2f;
+}
+
+/* ////////////////////////////////////
+           Hero End
+//////////////////////////////////// */
+
+/* ////////////////////////////////////
+           Services Start
+//////////////////////////////////// */
+
+#services .hero_2 {
+  position: relative;
+  transform: translate(0%, -245%);
+}
+
+#services .part {
+  transform: translate(53%, -143%);
+}
+
+#services .part h2 {
+  font-size: 19px;
+  color: #fd5b2f;
+  font-family: "Gilroy-light", sans-serif;
+  text-transform: uppercase;
+}
+#services .part h1 {
+  width: 37%;
+  padding-top: 5px;
+  font-size: 53px;
+  font-family: "Gilroy-light", sans-serif;
+}
+#services .part p {
+  width: 45%;
+  padding-top: 30px;
+  font-size: 16px;
+  font-family: "Avenir", sans-serif;
+}
+#services button {
+  width: 177px;
+  height: 57px;
+  border-radius: 6px;
+  color: #ffffff;
+  background-color: #fd5b2f;
+  border: none;
+  margin-top: 30px;
+}
+
+/* ////////////////////////////////////
+           Services End
+//////////////////////////////////// */
+
+/* ////////////////////////////////////
+           Vision Start
+//////////////////////////////////// */
+#vision .hero_3 {
+  position: relative;
+  transform: translate(61%, -193%);
+}
+
+#vision .part {
+  transform: translate(-58%, -115%);
+}
+
+#vision .part h2 {
+  font-size: 19px;
+  color: #fd5b2f;
+  font-family: "Gilroy-light", sans-serif;
+  text-transform: uppercase;
+}
+#vision .part h1 {
+  width: 38%;
+  padding-top: 5px;
+  font-size: 52px;
+  font-family: "Gilroy-light", sans-serif;
+}
+#vision .part p {
+  width: 45%;
+  padding-top: 30px;
+  font-size: 16px;
+  font-family: "Avenir", sans-serif;
+}
+
+#vision .gg {
+  width: 78%;
+  padding-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#vision .gg .G_1 h2 {
+  font-size: 16px;
+}
+#vision .gg .G_2 h2 {
+  font-size: 16px;
+}
+#vision .gg .G_3 h2 {
+  font-size: 16px;
+}
+#vision .gg .G_2 {
+  transform: translate(-25%, 5%);
+}
+#vision .gg .G_3 h2 {
+  padding-top: 20px;
+}
+#vision .part button {
+  width: 176px;
+  height: 56px;
+  background-color: #fd5b2f;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  margin-top: 20px;
+}
+
+/* ////////////////////////////////////
+           Vision End
+//////////////////////////////////// */
+
+/* ////////////////////////////////////
+           Solution Start
+//////////////////////////////////// */
+#solution .hero_4 {
+  position: relative;
+  transform: translate(74%, -286%);
+}
+#solution .part {
+  transform: translate(-71%, -200%);
+}
+
+#solution .part h2 {
+  font-size: 18px;
+  font-family: "Gilroy-light", sans-serif;
+  color: #fd5b2f;
+  text-transform: uppercase;
+}
+
+#solution .part h1 {
+  font-size: 52px;
+  font-family: "Gilroy-light", sans-serif;
+  width: 50%;
+  padding-top: 20px;
+}
+#solution .part p {
+  font-size: 16px;
+  font-family: "Avenir", sans-serif;
+  width: 46%;
+  padding-top: 20px;
+}
+
+#solution button {
+  width: 176px;
+  height: 56px;
+  background-color: #fd5b2f;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  margin-top: 30px;
+}
+
+/* ////////////////////////////////////
+           Solution End
+//////////////////////////////////// */
+
+#Choose img{
+  transform: translateY(-750%);
+  padding-left: 50px;
+}
+
+#gallery img{
+  transform: translateY(-409%);
+  padding-left: 50px;
+}
+
+#member img{
+  transform: translateY(-439%);
+  padding-left: 50px;
+}
+
+#footer img{
+  transform: translateY(-508%);
+}
